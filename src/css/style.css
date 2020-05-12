@@ -1,0 +1,75 @@
+body {
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+  text-align: center;
+}
+.header {
+  padding: 15px 24px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.header_nav_list {
+  list-style: none;
+}
+.three_images_item {
+  margin: 5px ;
+  padding: 5px 5px;
+  width: 90%;
+  height: 340px;
+  position: relative;
+  overflow: hidden;
+
+}
+.three_images {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  margin: 96px auto;
+  padding: 10px auto;
+}
+.content_body,.content_img {
+  display: inline;
+}
+.content_body {
+  text-align: center;
+  padding: auto;
+  vertical-align: middle;
+}
+.support {
+  padding: 5px;
+  margin: 10px;
+}
+/* footerのCSS設定 */
+.sitelink_border {
+  display: block;
+  margin: 10px auto;
+  padding: 0 auto;
+}
+.sitelink {
+  padding: 0 24px;
+}
+.sitelink__nav {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 20px;
+  padding-left: 10px;
+  text-align: center;
+  width: 300px;
+}
+.sitelink__list {
+  list-style: none;
+}
+.sitelink__list_item {
+  text-align: left;
+}
+.section2 {
+  display: block;
+  margin: 10px auto;
+}
+.section6 {
+  display: block;
+  margin: 5px auto;
+  text-align: center;
+}
